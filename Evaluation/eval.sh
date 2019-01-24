@@ -1,0 +1,1 @@
+python eval.py /mnt/hgfs/share/SqueezeNet_Regression/Trainset_20180408 label_Trainset_20180408.txt  /mnt/hgfs/share/SqueezeNet_Regression/20180408/model_dataset_10w_20180408/squeezenet_model/weights.180-0.00277595377166962_weights.h5 

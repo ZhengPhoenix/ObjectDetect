@@ -1,0 +1,1 @@
+python3 net_save_to_pb.py /mnt/hgfs/share/SqueezeNet_Regression/20180t408_f0519/model_dataset_20w_t0408_f0519_c/squeezenet_model/weights.Epoch_78-Loss_0.6838309556403437-ValLoss_0.2768504789222941.h5
