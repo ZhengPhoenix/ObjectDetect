@@ -50,7 +50,7 @@ config = tf.ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 0.4
 set_session(tf.Session(config=config))
 
-labels_path = os.path.join(image_dir, 'merge.csv')
+labels_path = os.path.join(image_dir, 'merged.csv')
 data_pairs = pd.read_csv(labels_path, header=None, sep=' ')
 filenames = [os.path.join(image_dir,name) for name in data_pairs.loc[:, 0].tolist()]
 labels = data_pairs.loc[:, 1:].values.astype(float) / 300.
