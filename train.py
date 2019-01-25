@@ -167,6 +167,10 @@ def data_generator(_filenames, _labels):
 
 class MyCallback(keras.callbacks.Callback):
     def on_epoch_end(self, epoch, logs={}):
+        # save at hundred epoch
+        if not epoch % 100 == 0:
+            return
+
         loss = logs.get('loss')
         val_loss = logs.get('val_loss')
 

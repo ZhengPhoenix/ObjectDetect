@@ -50,7 +50,7 @@ def main():
 
         cv2.imwrite(os.path.join(output_path, file), img)
 
-        csvfile.write('{} {} 300\n'.format(file, ' '.join(coord)))
+        csvfile.write('{} {} 300 0\n'.format(file, ' '.join(coord)))
 
 
 if __name__ == '__main__':
